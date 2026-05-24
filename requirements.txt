@@ -3,3 +3,4 @@ uvicorn
 pymupdf 
 groq 
 python-multipart 
+requests 
