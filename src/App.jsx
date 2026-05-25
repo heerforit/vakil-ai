@@ -13,7 +13,7 @@ export default function App() {
     formData.append("file", file);
     try {
       const res = await axios.post(
-        "https://vakil-ai-production-65f1.up.railway.app/analyze",
+        "https://vakil-ai-production-e738.up.railway.app/analyze",
         formData
       );
       setResult(res.data.result);
